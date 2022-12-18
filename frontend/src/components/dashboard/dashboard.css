@@ -1,0 +1,35 @@
+.btn{
+    height: 40px;
+
+}
+.btn span{
+    font-size: 15px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .btn-action{
+        width: 50px;
+
+    }
+    .btn span{
+        font-size: 10px;
+    }
+    .email-th{
+        width: 150px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .btn-action{
+        width: 80px;
+
+    }
+    .btn-action span{
+        font-size: 15px;
+    }
+}
+
+

@@ -1,0 +1,35 @@
+.btn-create{
+    height: 8px;
+    width: 200px;
+
+}
+.btn-create span{
+    font-size: 15px;
+}
+
+.span{
+    font-size: 15px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .btn-create{
+        width: 100px;
+
+    }
+    .span{
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .btn-create{
+        width: 150px;
+
+    }
+    .btn-create span{
+        font-size: 15px;
+    }
+}
+
+
